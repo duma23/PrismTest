@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+            xmlns:views="clr-namespace:PrismTest.Views; assembly=PrismTest"
+            prism:ViewModelLocator.AutowireViewModel="True"
+            x:Class="PrismTest.Views.TabbedExamplePage">
+    <views:Tab1Page Title="TAB1"/>
+    <views:Tab2Page Title="TAB2"/>
+</TabbedPage>
